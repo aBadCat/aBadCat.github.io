@@ -1,0 +1,236 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<link rel="bookmark"  type="image/x-icon"  href="/img/logo_miccall.png"/>
+	 <link rel="shortcut icon" href="/img/logo_miccall.png">
+	
+			
+    <title>
+    Hexo
+    </title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="/css/mic_main.css" />
+    <link rel="stylesheet" href="/css/dropdownMenu.css" />
+    
+    	<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+	
+    <noscript>
+        <link rel="stylesheet" href="/css/noscript.css" />
+    </noscript>
+
+			    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery.scrollex.min.js"></script>
+    <script src="/js/jquery.scrolly.min.js"></script>
+    <script src="/js/skel.min.js"></script>
+    <script src="/js/util.js"></script>
+    <script src="/js/main.js"></script>
+	
+</head>
+    
+		
+<!-- Layouts -->
+
+
+
+<!--  代码渲染  -->
+<link rel="stylesheet" href="/css/prism_coy.css" />
+<link rel="stylesheet" href="/css/typo.css" />
+<!-- 文章页 -->
+<body class="is-loading">
+    <!-- Wrapper 外包 s-->
+    <div id="wrapper" class="fade-in">
+        <!-- Intro 头部显示 s -->
+        <!-- Intro 头部显示 e -->
+        <!-- Header 头部logo start -->
+        <header id="header">
+    <a href="/" class="logo">aBadCat</a>
+</header>
+        <!-- Nav 导航条 start -->
+        <nav id="nav" class="special" >
+            <ul class="menu links" >
+			<!-- Homepage  主页  --> 
+			<li >
+	            <a href="/" rel="nofollow">主页</a>
+	        </li>
+			<!-- categories_name  分类   --> 
+	        
+	        <li class="active">
+	            <a href="#s1">分类</a>
+	                    <ul class="submenu">
+	                        <li>
+	                        
+	                    </ul>
+	        </li>
+	        
+	        <!-- archives  归档   --> 
+	        
+	        
+		        <!-- Pages 自定义   -->
+		        
+		        <li>
+		            <a href="/about/" title="简历">
+		                简历
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/group/" title="团队">
+		                团队
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/gallery/" title="图库">
+		                图库
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/tag/" title="标签">
+		                标签
+		            </a>
+		        </li>
+		        
+
+
+            </ul>
+            <!-- icons 图标   -->
+			<ul class="icons">
+		            
+		                <li><a href="https://github.com/aBadCat" class="icon fa-github"><span class="label">GitHub</span></a></li>
+		            
+		            
+		            
+		            
+			</ul>
+</nav>
+
+        <div id="main" >
+            <div class ="post_page_title_img" style="height: 25rem;background-image: url();background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;" >
+                <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2 ></h2></a>
+            </div>
+            <!-- Post -->
+            <div class="typo" style="padding: 3rem;">
+                <p>—Hexo + github 搭建个人博客快速上手—<br>最近清闲一些，就把以前想做的事情做了，正好互联网加的服务器到期了，空着一个域名，就把它用来搭建博客了…</p>
+<p>#主要步骤<br>1.前期准备<br>2.Hexo安装<br>3.配置Hexo与github page<br>4.主题更新<br>5.博客更新</p>
+<p>##前期准备<br><em>node安装
+</em>git安装<br>*github账户配置</p>
+<p>###node安装<br>node下载<br>windows: (<a href="https://nodejs.org/dist/v9.3.0/node-v9.3.0-x64.msi" target="_blank" rel="noopener">https://nodejs.org/dist/v9.3.0/node-v9.3.0-x64.msi</a>)<br>Linux: (<a href="https://nodejs.org/dist/v9.3.0/node-v9.3.0-linux-x64.tar.xz" target="_blank" rel="noopener">https://nodejs.org/dist/v9.3.0/node-v9.3.0-linux-x64.tar.xz</a>)<br>Mac: (<a href="https://nodejs.org/dist/v9.3.0/node-v9.3.0.pkg" target="_blank" rel="noopener">https://nodejs.org/dist/v9.3.0/node-v9.3.0.pkg</a>)<br>安装没什么大的问题，装好后打开命令行输入<br>‘node -v’<br>出现node的版本号说明安装成功了</p>
+<p>###git安装<br>windows: 下载安装(<a href="https://git-scm.com/download/win" target="_blank" rel="noopener">https://git-scm.com/download/win</a>)<br>Linux和Mac的安装可以<a href="https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/00137396287703354d8c6c01c904c7d9ff056ae23da865a000" target="_blank" rel="noopener">参考</a></p>
+<p>###github<br>既然是利用github page，也得到github官网上注册一个github账号对吧。</p>
+<p>##Hexo安装<br><em>安装Hexo
+</em>初始化Hexo</p>
+<p>###安装Hexo<br>使用NPM进行安装<br>在命令行中或者任意位置右键,点击git bush here<br>输入命令<br>‘npm install hexo -g’</p>
+<p>###初始化Hexo<br>在本地建立你的博客文件夹(如：D：\blog)<br><img src="Hexo1/blog.png" alt="blog"><br>进入文件夹，右键运行Git Bush 输入’hexo init’<br>之后文件夹中会多出这样一些东西<br><img src="Hexo1/init.png" alt="init"><br>继续在git界面输入<br>‘hexo g’ &gt;生成Hexo服务器<br>‘hexo s’ &gt;本地启动（默认4000端口）<br>在浏览器中输入’localhost:4000’，就可以访问当前的页面了，也可以用来预览Hexo主题<br>成果出现如下页面，说明Hexo本地部属成功了<br><img src="Hexo/hexo.png" alt="hexo"></p>
+<p>##配置Hexo与github page<br><em>github账户配置(远程仓库、密钥)
+</em>Hexo同步</p>
+<p>###github账户配置<br>首先新建仓库，仓库名为你的账户名.github.io<br>如图<br><img src="Hexo1/1.png" alt="1"><br>要是github没配置密钥先配置ssh密钥用于链接github远程仓库<br>任意空白位置右键，git bash here输入命令，引号里输入你的邮箱地址<br>‘ssh-keygen -t rsa -C “your’s emaill address”‘<br>回车提交后会提示你文件保存的路径，继续回车确认，提示你输入密码（不可见），再确认输入一次，在刚刚那个路径就会生成id_rsa和id_rsa.pub两个文件<br>用下面命令复制其内容<br>‘clip ~&lt;.ssh/id_rsa.pub’<br>点击个人信息里的设置<br>(Hexo1/set.png)<br>点击密钥配置，New SSH key<br>()<br>Title随便填，Key里面粘贴刚刚复制的内容，然后点击Add SSH key就OK了<br>*Hexo同步<br>到你刚刚建立的博客文件夹，就是启动hexo的地方<br>记事本打开_config.yml文件，到最后有<br>‘deploy:<br>    type:’<br>改成如下图，repository是你的github对应新建的仓库地址，注意在：后面都是有一个空格的，不写会出错<br><img src="Hexo1/deploy.png" alt="deploy"><br>在文件夹空白地方右键git bush命令<br>‘npm install hexo-deployer-git –save’<br>安装完成后输入<br>‘hexo g<br>hexo d’<br>然后就可以通过你的github名.github.io访问到你的博客了。<br>依次输入<br>‘git config –global user.name “your’s name”<br>git config –global user.email “your’s email”‘<br>your’s name 是你的名称，email是你的邮箱</p>
+<p>##博客更新<br>**</p>
+
+            </div>
+
+            <!-- Post Comments -->
+            
+    <!-- 使用 DISQUS_CLICK -->
+<div id="disqus-comment">
+    <div id="disqus_thread"></div>
+
+<!-- add animation -->
+<style>
+	.disqus_click_btn {
+            line-height: 30px;
+            margin: 0;
+            min-width: 50px;
+            padding: 0 14px;
+            display: inline-block;
+            font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 0;
+            overflow: hidden;
+            will-change: box-shadow;
+            transition: box-shadow .2s cubic-bezier(.4, 0, 1, 1), background-color .2s cubic-bezier(.4, 0, .2, 1), color .2s cubic-bezier(.4, 0, .2, 1);
+            outline: 0;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+            vertical-align: middle;
+            border: 0;
+            background: rgba(158, 158, 158, .2);
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+            color: #fff;
+            background-color: #7EC0EE;
+            text-shadow: 0
+        }
+</style>
+	
+<div class="btn_click_load" id="disqus_bt"> 
+    <button class="disqus_click_btn">点击查看评论</button>
+</div>
+
+<!--
+<script type="text/javascript">
+$('.btn_click_load').click(function() {
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'http-miccall-tech'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    document.getElementById('disqus_bt').style.display = "none";
+});
+</script>
+-->
+<script type="text/javascript">
+    var disqus_config = function () {
+        this.page.url = 'http://yoursite.com/2018/01/08/hexo1/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'http://yoursite.com/2018/01/08/hexo1/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+</script>
+
+<script type="text/javascript">
+    $('.btn_click_load').click(function() {  //click to load comments
+        (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document;
+            var s = d.createElement('script');
+            s.src = '//http-miccall-tech.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', + new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+        $('.btn_click_load').css('display','none');
+    });
+</script>
+</div>
+<style>
+    #disqus-comment{
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
+
+
+        </div>
+        <!-- Copyright 版权 start -->
+                <div id="copyright">
+            <ul>
+                <li>&copy;Powered By <a href="https://hexo.io/zh-cn/" style="border-bottom: none;">hexo</a></li>
+                <li>Design: <a href="http://miccall.tech " style="border-bottom: none;">miccall</a></li>
+            </ul>
+            
+            	<span id="busuanzi_container_site_pv">2018总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+			
+        </div>
+    </div>
+</body>
+
+
+
+ 	
+</html>
